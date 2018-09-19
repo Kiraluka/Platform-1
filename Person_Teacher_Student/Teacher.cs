@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Person_Teacher_Student
+﻿namespace Person_Teacher_Student
 {
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     class Teacher : Person, IEnumerable
     {
-         {
         public List<Student> Group = new List<Student>();
 
         public Teacher() : base()

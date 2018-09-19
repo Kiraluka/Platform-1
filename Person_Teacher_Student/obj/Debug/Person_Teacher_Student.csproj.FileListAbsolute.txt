@@ -1,2 +1,7 @@
 E:\Навчання\ІІІ курс\Паралельні обчислення\Person_Teacher_Student\Person_Teacher_Student\bin\Debug\Person_Teacher_Student.exe.config
 C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_Student\bin\Debug\Person_Teacher_Student.exe.config
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_Student\obj\Debug\Person_Teacher_Student.csprojResolveAssemblyReference.cache
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_Student\bin\Debug\Person_Teacher_Student.exe
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_Student\bin\Debug\Person_Teacher_Student.pdb
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_Student\obj\Debug\Person_Teacher_Student.exe
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_Student\obj\Debug\Person_Teacher_Student.pdb
