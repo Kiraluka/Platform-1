@@ -10,7 +10,7 @@
     /// <summary>
     /// Represents class Teacher
     /// </summary>
-    class Teacher : Person, IEnumerable
+    public class Teacher : Person, IEnumerable
     {
         /// <summary>
         /// List of students

@@ -18,7 +18,7 @@
     /// <summary>
     /// Represents person
     /// </summary>
-    class Person
+    public class Person
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="T:Person_Teacher_Student"/> class

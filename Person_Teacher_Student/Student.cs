@@ -9,7 +9,7 @@
     /// <summary>
     /// Represents class Student
     /// </summary>
-    class Student : Person
+    public class Student : Person
     {
         /// <summary>
         /// Instance Teacher
