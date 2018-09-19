@@ -6,10 +6,19 @@
     using System.Text;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents class Student
+    /// </summary>
     class Student : Person
     {
+        /// <summary>
+        /// Instance Teacher
+        /// </summary>
         public Teacher Curator = new Teacher();
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Person_Teacher_Student"/> class
+        /// </summary>
         public Student() : base()
         {
             this.Course = 5;
@@ -17,6 +26,16 @@
             this.Curator.Name = "AAA";
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Person_Teacher_Student"/> class with specified name, surname, age, genderr, course, numberOfDocument, numberOfCurator
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="surname"></param>
+        /// <param name="age"></param>
+        /// <param name="genderr"></param>
+        /// <param name="course"></param>
+        /// <param name="numberOfDokument"></param>
+        /// <param name="nameOfCurator"></param>
         public Student(string name, string surname, int age, Gender genderr, int course, int numberOfDokument, string nameOfCurator) : base(name, surname, age, genderr)
         {
             this.Course = course;
@@ -24,10 +43,21 @@
             this.Curator.Name = nameOfCurator;
         }
 
+        /// <summary>
+        /// Gets variable course
+        /// </summary>
+        /// <value>The course</value>
         public int Course { get; set; }
 
+        /// <summary>
+        /// Gets variable numberOfDocument
+        /// </summary>
+        /// <value>The numberOfDocument</value>
         public int NumberOfDocument { get; set; }
 
+        /// <summary>
+        /// Input information about student or teacher
+        /// </summary>
         public override void Input()
         {
             Console.WriteLine("Input name:");
