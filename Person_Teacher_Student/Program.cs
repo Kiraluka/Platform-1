@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Platform_task1
+namespace Person_Teacher_Student
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Person person = new Person("Valya", "Romanchuk", Gender.female);
-            person.print();
-            //Console.WriteLine(person);
-            Console.ReadKey();
         }
     }
 }
