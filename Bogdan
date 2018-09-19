@@ -1,0 +1,91 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Console;
+
+namespace Person_Teacher_Student
+{
+    class Teacher : Person,IEnumerable
+    {
+        public int Salary { get; set; }
+        public string Subject { get; set; }
+        public List< Student > Group = new List<Student>();
+        public Teacher():base()
+        {
+
+            Salary = 15000;
+            Subject = "Programming";
+        }
+        public Teacher( string name, string surname, int age, gender genderr, int salary, string subject) :base(name, surname, age, genderr)
+        {
+           Group.Capacity = 100;
+            Group.Add(new Student("Dima", "Mysluk", 21, gender.male, 4, 56547878, "Sergiy"));
+            Salary = salary;
+            Subject = subject;
+        }
+        public virtual void Print()
+        {
+            WriteLine(ToString());
+        }
+        public override string ToString()
+        {
+            WriteLine("______________________________________________________________________________________________________");
+            return $"Name: {Name} {Surname} | Age:{Age} | Gender: {Gender} | Salary: {Salary} | Subject: {Subject}";
+            WriteLine("______________________________________________________________________________________________________");
+        }
+        public void PrintGroup()
+        {
+            foreach(var a in Group)
+            {
+                a.Print();
+            }
+        }
+        public virtual void Input()
+        {
+            WriteLine("Input name:");
+            string InpName = Convert.ToString(ReadLine());
+            Name = InpName;
+            WriteLine("Input Surname:");
+            string InpSurname = Convert.ToString(ReadLine());
+            Surname = InpSurname;
+            WriteLine("Input Age: ");
+            int InpAge = Convert.ToInt32(ReadLine());
+            Age = InpAge;
+            WriteLine("Input Gender (male - 1, female - 0): ");
+            string InpGender = ReadLine();
+            Gender = (gender)Convert.ToInt32(InpGender);
+            WriteLine("Input Salary: ");
+            int InpSalary = Convert.ToInt32(ReadLine());
+            Salary = InpSalary;
+            WriteLine("Input Subject: ");
+            string InpSubject = Convert.ToString(ReadLine());
+            Subject = InpSubject;
+            WriteLine("Teacher which you created:");
+            this.Print();
+            ReadKey();
+        }
+        public override bool Equals(object obj)
+        {
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            {
+                return false;
+            }
+            else
+            {
+                Teacher p = (Teacher)obj;
+                return (this.Surname == p.Surname);
+            }
+        }
+        public override int GetHashCode()
+        {
+            return Surname.GetHashCode();
+        }
+        public IEnumerator GetEnumerator()
+        {
+            return ((IEnumerable)Group).GetEnumerator();
+        }
+    }
+}
