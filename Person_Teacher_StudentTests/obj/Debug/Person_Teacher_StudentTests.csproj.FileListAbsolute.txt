@@ -1,0 +1,8 @@
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\bin\Debug\Person_Teacher_StudentTests.dll
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\bin\Debug\Person_Teacher_StudentTests.pdb
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\bin\Debug\Person_Teacher_Student.exe
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\bin\Debug\Person_Teacher_Student.pdb
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\obj\Debug\Person_Teacher_StudentTests.csprojResolveAssemblyReference.cache
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\obj\Debug\Person_Teacher_StudentTests.dll
+C:\Users\Valentina\Desktop\Platform-1\Person_Teacher_StudentTests\obj\Debug\Person_Teacher_StudentTests.pdb
